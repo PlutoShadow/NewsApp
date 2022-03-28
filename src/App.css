@@ -1,0 +1,244 @@
+.Main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-image: url('./images/newsbackground.jpg');
+  background-repeat: inherit;
+  
+ 
+
+}
+
+.Sub-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 630px;
+  width: 40%;
+  box-shadow: 4px 5px 6px 5px rgb(165, 160, 160);
+  padding:30px;
+  border-radius: 60px;
+  background-color:rgb(224, 216, 216);
+  
+}
+
+.header
+{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+ 
+}
+.logo{
+  text-align: center;
+  border:6px solid rgb(201, 62, 201) ;
+  border-radius: 150px;
+  height:80%; /*put 100% both for cool look*/
+  width:80%;
+  
+}
+.heading
+{
+ color:rgb(247, 146, 247);
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+
+}
+
+.logoimg
+{
+  border-width: 2px;
+  border-radius: 150px;
+  
+  height:100%;
+  width:100%;
+}
+
+input{
+  width:60%;
+  height:40px ;
+  border-radius: 60px;
+  padding-left:50px ;
+  border: none;
+  outline: none;
+  box-shadow: inset 0px 0px 25px 0px #888;
+}
+.imginput
+{
+  height: 25px;
+  width:25px;
+  border-radius: 5px;
+  position:absolute;
+  padding: 10px 0 0 10px;
+  color:white;
+}
+.loginbutton{
+  width:40%;
+  height:40px ;
+  border-radius: 60px;
+  background-color:rgb(201, 62, 201);
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.navbar{
+  display: flex;
+  border:1px solid rgb(17, 15, 15);
+  background-color:violet;
+  border-radius: 99px;
+  padding-right:0px ;
+  padding-left: 0px;
+  margin:10px;
+  
+}
+.nav-brandlogo
+{
+  border-width: 2px;
+  border-radius: 150px;
+  
+  height:15%;
+  width:15%;
+}
+li::marker{
+  visibility: hidden;
+  color: violet;
+}
+.list
+{
+  margin-right:10px;
+  margin-left: 3px;
+
+}
+
+#folio ul li{ margin:0 20px 20px 0; }
+li{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 1px;
+
+}
+
+
+/*Myaccount  */
+.profile{
+   position: absolute;
+   
+   text-align:center;
+   width: 40%;
+   box-shadow:0 0 10px rgba(0,0,0,0.2);
+   padding:20px;
+   margin-left:30%;
+}
+.profile_image
+{
+  width:150px;
+  height: 150px;
+  object-fit:cover;
+  border-radius: 50%;
+  margin:0 auto 20px auto;
+  display:block;
+}
+.profile_name{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.profile_email{
+  
+}
+.profile_mobileno{
+
+}
+.card
+{
+  display: inline-block;
+  margin:10px;
+  
+  
+}
+.card-img-top
+{
+  width:10%;
+  height:20%;
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+
+.addnewsbutton
+{
+  
+  margin:0 auto 20px auto;
+  display:block;
+}
+
+
+
+.mymodal{
+  margin-left:20%;
+  margin-right: 20%;
+ border:2px solid  violet;
+
+
+
+}
+.inputnewsmodal{ 
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.closebutton{
+  float: right;
+  background-color: red;
+}
+.addnewsinput{
+  text-align: center;
+}
+.newsbuttons{
+  background-color: rgb(201, 62, 201);
+}
+.newsaddmodalbutton
+{
+  font-size: 20px;
+  margin-left: 45%;
+}
+.newsdesc
+{
+  font-size:20px ;
+}
+.newslisttitle{
+  text-align: center;
+}
+
+.logoutbox
+{
+  margin-left:42%;
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+  
+  margin-top:15%;
+  border:1px solid rgb(17, 15, 15);
+ 
+
+}
+.logoutbuttonlink{
+
+  color: black;
+}
+.homehead
+{
+  text-align: center;
+}
+.deletebutton
+{
+  margin-left: 4px;
+  margin-bottom: 4px;
+  background-color: red;
+
+}
